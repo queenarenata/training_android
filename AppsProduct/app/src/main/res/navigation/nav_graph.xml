@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.appsproduct.ui.fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_fragmentFavorite"
+            app:destination="@id/fragmentFavorite" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.appsproduct.ui.fragment.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_fragmentProfile_to_fragmentEditProfile"
+            app:destination="@id/fragmentEditProfile" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/galleryIntentFragment"
+        android:name="com.example.appsproduct.ui.fragment.GalleryIntentFragment"
+        android:label="Gallery Intent"
+        tools:layout="@layout/fragment_gallery_intent" />
+
+    <fragment
+        android:id="@+id/cameraIntentFragment"
+        android:name="com.example.appsproduct.ui.fragment.CameraIntentFragment"
+        android:label="Camera Intent"
+        tools:layout="@layout/fragment_camera_intent" />
+
+    <fragment
+        android:id="@+id/fragmentEditProfile"
+        android:name="com.example.appsproduct.ui.fragment.FragmentEditProfile"
+        android:label="fragment_edit_profile"
+        tools:layout="@layout/fragment_edit_profile" >
+        <argument
+            android:name="id"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentFavorite"
+        android:name="com.example.appsproduct.ui.fragment.FavoriteFragment"
+        android:label="Fragment Favorite"
+        tools:layout="@layout/fragment_favorite" />
+</navigation>

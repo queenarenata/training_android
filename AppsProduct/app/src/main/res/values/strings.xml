@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AppsProduct</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_fragment">Home</string>
+    <string name="profile">Profile</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="username">Queena Renata</string>
+    <string name="email">queenarenata1906@gmail.com</string>
+    <string name="_087887024095">087887024095</string>
+    <string name="_19_jun_2006">19 Jun 2006</string>
+    <string name="jakarta">Jakarta</string>
+    <string name="todo">todo</string>
+    <string name="view_favorites">Favorites</string>
+    <string name="no_favorites">Tidak ada favorit tersedia</string>
+</resources>

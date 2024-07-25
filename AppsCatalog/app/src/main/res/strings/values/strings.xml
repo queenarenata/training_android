@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">AppsCatalog</string>
+    <string name="barang_image">Gambar Barang</string>
+
+    <string-array name="item_names">
+        <item>Laptop MacBook</item>
+        <item>Laptop Lenovo</item>
+        <item>Laptop Asus</item>
+        <item>Laptop Dell</item>
+        <item>Laptop Acer</item>
+        <item>Laptop HP</item>
+        <item>Laptop Samsung</item>
+        <item>Laptop Razer</item>
+        <item>Laptop MSI</item>
+        <item>Mouse Logitech</item>
+        <item>Mouse Robot</item>
+        <item>Mouse Fantech</item>
+        <item>Mouse Rexus</item>
+        <item>Keyboard Logitech</item>
+        <item>Keyboard Rexus</item>
+        <item>Keyboard Razer</item>
+        <item>Keyboard Redragon</item>
+        <item>Keyboard Cosair</item>
+        <item>Keyboard Ducky</item>
+        <item>Keyboard Armaggeddon</item>
+    </string-array>
+
+    <!-- Descriptions -->
+    <string-array name="item_descriptions">
+        <item>Ini adalah Laptop MacBook</item>
+        <item>Ini adalah Laptop Lenovo</item>
+        <item>Ini adalah Laptop Asus</item>
+        <item>Ini adalah Laptop Dell</item>
+        <item>Ini adalah Laptop Acer</item>
+        <item>Ini adalah Laptop HP</item>
+        <item>Ini adalah Laptop Samsung</item>
+        <item>Ini adalah Laptop Razer</item>
+        <item>Ini adalah Laptop MSI</item>
+        <item>Ini adalah Mouse Logitech</item>
+        <item>Ini adalah Mouse Robot</item>
+        <item>Ini adalah Mouse Fantech</item>
+        <item>Ini adalah Mouse Rexus</item>
+        <item>Ini adalah Keyboard Logitech</item>
+        <item>Ini adalah Keyboard Rexus</item>
+        <item>Ini adalah Keyboard Razer</item>
+        <item>Ini adalah Keyboard Redragon</item>
+        <item>Ini adalah Keyboard Cosair</item>
+        <item>Ini adalah Keyboard Ducky</item>
+        <item>Ini adalah Keyboard Armaggeddon</item>
+    </string-array>
+
+    <!-- Prices -->
+    <string-array name="item_prices">
+        <item>40000000.0</item>
+        <item>35000000.0</item>
+        <item>30000000.0</item>
+        <item>25000000.0</item>
+        <item>20000000.0</item>
+        <item>15000000.0</item>
+        <item>13000000.0</item>
+        <item>12000000.0</item>
+        <item>10000000.0</item>
+        <item>500000.0</item>
+        <item>400000.0</item>
+        <item>300000.0</item>
+        <item>200000.0</item>
+        <item>900000.0</item>
+        <item>800000.0</item>
+        <item>700000.0</item>
+        <item>600000.0</item>
+        <item>500000.0</item>
+        <item>400000.0</item>
+        <item>300000.0</item>
+    </string-array>
+
+    <!-- Stocks -->
+    <integer-array name="item_stocks">
+        <item>100</item>
+        <item>95</item>
+        <item>90</item>
+        <item>85</item>
+        <item>80</item>
+        <item>75</item>
+        <item>70</item>
+        <item>65</item>
+        <item>60</item>
+        <item>55</item>
+        <item>50</item>
+        <item>45</item>
+        <item>40</item>
+        <item>35</item>
+        <item>30</item>
+        <item>25</item>
+        <item>20</item>
+        <item>15</item>
+        <item>10</item>
+        <item>5</item>
+    </integer-array>
+
+    <integer-array name="item_images">
+        <item>@drawable/macbook</item>
+        <item>@drawable/lenovo</item>
+        <item>@drawable/asus</item>
+        <item>@drawable/dell</item>
+        <item>@drawable/acer</item>
+        <item>@drawable/hp</item>
+        <item>@drawable/samsung</item>
+        <item>@drawable/razer</item>
+        <item>@drawable/msi</item>
+        <item>@drawable/logitech</item>
+        <item>@drawable/robot</item>
+        <item>@drawable/fantech</item>
+        <item>@drawable/rexus</item>
+        <item>@drawable/klogitech</item>
+        <item>@drawable/krexus</item>
+        <item>@drawable/krazer</item>
+        <item>@drawable/kredragon</item>
+        <item>@drawable/kcosair</item>
+        <item>@drawable/kducky</item>
+        <item>@drawable/karmaggeddon</item>
+    </integer-array>
+
+</resources>
